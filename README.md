@@ -1,6 +1,6 @@
-# My Project CV — Muhammad Murfid Nurhadi
+# My Project CV - Muhammad Murfid Nurhadi
 
-> Website CV personal untuk **melamar pekerjaan** — tema **Grey & Dark Blue**, animasi slide up/down, fully responsive (Android & Desktop), React + TypeScript.
+> Website CV personal untuk **melamar pekerjaan** - tema **Grey & Dark Blue**, animasi slide up/down, fully responsive (Android & Desktop), React + TypeScript.
 
 **Live Demo (Vercel):** 
 > **https://my-project-cv.vercel.app/** 
@@ -11,10 +11,10 @@
 
 ## Tentang Saya
 
-**Muhammad Murfid Nurhadi** — Lahir **29 Desember 2003**
-Mahasiswa **S1 Teknik Informatika, Universitas Komputer Indonesia (UNIKOM) Bandung** — [unikom.ac.id](https://www.unikom.ac.id)
+**Muhammad Murfid Nurhadi** - Lahir **29 Desember 2003**
+Mahasiswa **S1 Teknik Informatika, Universitas Komputer Indonesia (UNIKOM) Bandung** - [unikom.ac.id](https://www.unikom.ac.id)
 
-Antusias di dunia kreatif & teknologi — dari coding **JavaScript** hingga desain, motion graphic, dan 3D. Website ini dibuat khusus untuk **melamar pekerjaan** dengan tampilan profesional, menarik, dan mudah dilihat HRD/rekruter.
+Antusias di dunia kreatif & teknologi - dari coding **JavaScript** hingga desain, motion graphic, dan 3D. Website ini dibuat khusus untuk **melamar pekerjaan** dengan tampilan profesional, menarik, dan mudah dilihat HRD/rekruter.
 
 **Kontak aktif:**
 - Email: [murfidnurhadi8@gmail.com](mailto:murfidnurhadi8@gmail.com?subject=Lamaran%20Kerja%20-%20Tertarik%20merekrut%20Anda)
@@ -28,7 +28,7 @@ Antusias di dunia kreatif & teknologi — dari coding **JavaScript** hingga desa
 
 ---
 
-## ✨ Fitur
+## Fitur
 
 - **Navbar Dark Blue** fixed + hamburger responsive
 - **Hero** dengan kartu profil (`/profile.webp` klik untuk preview lightbox) — email/WA/kampus langsung klik (`mailto:` & `wa.me`)
@@ -41,7 +41,7 @@ Antusias di dunia kreatif & teknologi — dari coding **JavaScript** hingga desa
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Vite 5** + **React 18** + **TypeScript 5**
 - CSS murni (tanpa framework) — tema Grey `#f1f5f9` & Dark Blue `#0f172a`/`#1e3a8a`
@@ -50,11 +50,11 @@ Antusias di dunia kreatif & teknologi — dari coding **JavaScript** hingga desa
 
 ---
 
-## 📁 Struktur
+## Struktur
 
 ```
 public/
-  profile.webp              # foto profil (ganti dengan foto kamu)
+  profile.webp              
   logos/
     javascript.webp
     photoshop.webp
@@ -76,7 +76,7 @@ src/
 
 ---
 
-## 🚀 Cara Menjalankan Lokal
+## Cara Menjalankan Lokal
 
 ```bash
 # di E:\Project-CV
@@ -88,7 +88,7 @@ npm run preview  # preview build
 
 ---
 
-## ▲ Deploy ke Vercel (aktifkan link di GitHub)
+## Deploy ke Vercel (aktifkan link di GitHub)
 
 1. Push sudah ada di `https://github.com/murfidnurhadi/My-Project-CV` (branch `main`)
 2. Buka [vercel.com/new](https://vercel.com/new) → **Import** repo `My-Project-CV`
@@ -109,17 +109,10 @@ npm run preview  # preview build
 
 ---
 
-## 📸 Preview
+## Preview
 
 - Foto: `public/profile.webp` (klik di navbar/avatar untuk lightbox)
 - Warna: Grey `#f1f5f9` background, Dark Blue `#0f172a` navbar
 
 ---
 
-## 📄 Lisensi
-
-Personal use — Muhammad Murfid Nurhadi © 2026. Dibuat untuk keperluan melamar pekerjaan.
-
----
-
-> Butuh bantuan deploy? Hubungi via Email/WA di atas — respons cepat!
