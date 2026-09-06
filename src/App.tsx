@@ -23,7 +23,7 @@ const CONTACT = {
 const SKILLS: Skill[] = [
   {
     title: 'Adobe After Effects',
-    level: 'Intermediate • 75%',
+    level: 'Intermediate • 85%',
     pct: 75,
     desc: 'Motion graphics, visual effect, compositing dan opening video.',
     logo: '/logos/aftereffects.webp',
@@ -59,7 +59,7 @@ const SKILLS: Skill[] = [
 
     {
     title: 'JavaScript',
-    level: 'Intermediate • 70%',
+    level: 'Intermediate • 60%',
     pct: 70,
     desc: 'Dasar pemrograman JavaScript, DOM manipulation, ES6+ dan logic programming.',
     logo: '/logos/javascript.webp',
