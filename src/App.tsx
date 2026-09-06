@@ -22,11 +22,11 @@ const CONTACT = {
 
 const SKILLS: Skill[] = [
   {
-    title: 'JavaScript',
-    level: 'Intermediate • 70%',
-    pct: 70,
-    desc: 'Dasar pemrograman JavaScript, DOM manipulation, ES6+ dan logic programming.',
-    logo: '/logos/javascript.webp',
+    title: 'Adobe After Effects',
+    level: 'Intermediate • 75%',
+    pct: 75,
+    desc: 'Motion graphics, visual effect, compositing dan opening video.',
+    logo: '/logos/aftereffects.webp',
   },
   {
     title: 'Adobe Photoshop',
@@ -36,11 +36,11 @@ const SKILLS: Skill[] = [
     logo: '/logos/photoshop.webp',
   },
   {
-    title: 'Adobe After Effects',
-    level: 'Intermediate • 75%',
-    pct: 75,
-    desc: 'Motion graphics, visual effect, compositing dan opening video.',
-    logo: '/logos/aftereffects.webp',
+    title: 'Alight Motion',
+    level: 'Advanced • 80%',
+    pct: 80,
+    desc: 'Video editing mobile, motion graphic, AMV dan konten media sosial.',
+    logo: '/logos/alightmotion.webp',
   },
   {
     title: 'Blender 3D',
@@ -56,12 +56,13 @@ const SKILLS: Skill[] = [
     desc: 'Rigging karakter 2D untuk VTuber dan animasi Live2D streaming.',
     logo: '/logos/live2d.webp',
   },
-  {
-    title: 'Alight Motion',
-    level: 'Advanced • 80%',
-    pct: 80,
-    desc: 'Video editing mobile, motion graphic, AMV dan konten media sosial.',
-    logo: '/logos/alightmotion.webp',
+
+    {
+    title: 'JavaScript',
+    level: 'Intermediate • 70%',
+    pct: 70,
+    desc: 'Dasar pemrograman JavaScript, DOM manipulation, ES6+ dan logic programming.',
+    logo: '/logos/javascript.webp',
   },
   {
     title: 'Microsoft Word 2010',
