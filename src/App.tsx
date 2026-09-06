@@ -103,6 +103,18 @@ function useReveal() {
   }, [])
 }
 
+function useVercelHomeToGithub() {
+  useEffect(() => {
+    // arahkan https://my-project-cv.vercel.app/#home -> https://github.com/murfidnurhadi/My-Project-CV
+    if (typeof window === 'undefined') return
+    const isVercel = window.location.hostname.includes('vercel.app')
+    const isHomeHash = window.location.hash === '#home'
+    if (isVercel && isHomeHash) {
+      window.location.replace('https://github.com/murfidnurhadi/My-Project-CV')
+    }
+  }, [])
+}
+
 function useScrolled(threshold = 20) {
   const [scrolled, setScrolled] = useState(false)
   useEffect(() => {
@@ -138,6 +150,7 @@ export default function App() {
   const [lightbox, setLightbox] = useState(false)
   const scrolled = useScrolled(20)
   useReveal()
+  useVercelHomeToGithub()
 
   const mailToHref = `mailto:${CONTACT.email}?subject=Lamaran%20Kerja%20-%20Tertarik%20merekrut%20Anda&body=Halo%20Murfid%2C%0A%0ASaya%20tertarik%20dengan%20profil%20Anda%20dan%20ingin%20berdiskusi%20lebih%20lanjut.%0A%0ATerima%20kasih.`
   const waHref = `https://wa.me/${CONTACT.waNumber}?text=Halo%20Murfid%2C%20saya%20tertarik%20dengan%20CV%20Anda%20dan%20ingin%20berdiskusi%20soal%20peluang%20kerja.`

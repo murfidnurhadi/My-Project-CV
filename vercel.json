@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/home",
+      "destination": "https://github.com/murfidnurhadi/My-Project-CV",
+      "permanent": true
+    }
+  ]
+}
