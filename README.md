@@ -3,7 +3,7 @@
 > Website CV personal untuk **melamar pekerjaan** — tema **Grey & Dark Blue**, animasi slide up/down, fully responsive (Android & Desktop), React + TypeScript.
 
 **Live Demo (Vercel):** 
-> 🚀 **https://my-project-cv.vercel.app** _(ganti dengan link Vercel aktif kamu setelah deploy — lihat cara deploy di bawah)_
+> **https://my-project-cv.vercel.app/** 
 
 **Repository:** https://github.com/murfidnurhadi/My-Project-CV
 
