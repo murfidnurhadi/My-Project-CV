@@ -90,8 +90,13 @@ const NAV_ITEMS = [
 function useReveal() {
   useEffect(() => {
     const observer = new IntersectionObserver(
-      (entries) => entries.forEach((e) => e.isIntersecting && e.target.classList.add('active')),
-      { threshold: 0.15 }
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) e.target.classList.add('active')
+          else e.target.classList.remove('active')
+        })
+      },
+      { threshold: 0.15, rootMargin: '0px 0px -40px 0px' }
     )
     document.querySelectorAll('.reveal, .reveal-down').forEach((el) => observer.observe(el))
     return () => observer.disconnect()
